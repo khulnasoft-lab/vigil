@@ -40,7 +40,7 @@ tera = { version = "1.19", default-features = false }
 native-tls = { version = "0.2", features = ["vendored"] }
 openssl-probe = "0.1"
 reqwest = { version = "0.11", features = ["native-tls-vendored", "gzip", "blocking", "json"], default-features = false }
-ping = "0.4"
+ping = "0.5"
 run_script = "0.10"
 lettre = { version = "0.10", features = ["smtp-transport", "native-tls", "hostname", "builder"], default-features = false, optional = true }
 libstrophe = { version = "0.17", optional = true }
