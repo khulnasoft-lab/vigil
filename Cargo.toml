@@ -30,7 +30,7 @@ uuid = { version = "1.1", features = ["v4", "fast-rng"], default-features = fals
 regex = "1.6"
 url = { version = "2.2", default-features = false }
 url_serde = { version = "0.2", default-features = false }
-http = "0.2"
+http = "1.0"
 http-serde = "1.1"
 indexmap = { version = "1.9", features = ["serde-1"] }
 actix-web = "4.3"
